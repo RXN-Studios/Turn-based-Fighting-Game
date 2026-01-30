@@ -4,7 +4,11 @@
 A small Java turn-based combat prototype demonstrating core combat mechanics and a simple adaptive enemy AI.
 
 **How to run:**  
-`java -jar Fighting\ Game.jar` (console)
+1. Open Terminal: Navigate to your project folder.
+2. Compile the Source:
+javac Action.java Player.java Game.java
+3. Run the Game:
+java Game
 
 **Controls:**  
 Choose action each turn: 1 = Attack, 2 = Reflect, 3 = Heal
