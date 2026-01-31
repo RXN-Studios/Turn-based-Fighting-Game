@@ -3,9 +3,9 @@ import java.util.Random;
 
 public class Game {
 
-    static final int MAX_HEALTH = (rand.nextInt(16) + 5) * 10;
-    static final int ATTACK_DAMAGE = (rand.nextInt(4) + 1) * 10;
-    static final int HEAL_AMOUNT = (rand.nextInt(4) + 1) * 10;
+    static final int MAX_HEALTH = 100;
+    static final int ATTACK_DAMAGE = 20;
+    static final int HEAL_AMOUNT = 15;
 
     Player player;
     Player enemy;
